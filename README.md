@@ -1,6 +1,6 @@
 <div align="center">
   <h1>📂 Minkyeong's Archive</h1>
-  <p>기록하고, 기억하고, 사유합니다.</p>
+  <p>감상하고 기록</p>
 </div>
 
 <hr/>
