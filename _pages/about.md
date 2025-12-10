@@ -1,6 +1,15 @@
+---
+permalink: /
+title: "Minkyeong's Archive"
+excerpt: "About me"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
+
 <div align="center">
-  <h1>📂 Minkyeong's Archive</h1>
-  <p>감상하고 기록</p></p>
+  <p>감상하고 기록</p>
 </div>
 
 <hr/>
