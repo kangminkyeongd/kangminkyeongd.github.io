@@ -1,56 +1,52 @@
----
-permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+<div align="center">
+  <h1>📂 Minkyeong's Archive</h1>
+  <p>감상하고 기록</p></p>
+</div>
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<hr/>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+### 📚 Recent Interests
+> 영화 감상문
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<br/>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+### 🎬 Film Criticism : &lt;네버 렛 미 고&gt;
+#### *정해진 운명 앞에서의 인간 존엄성과 사랑의 가치*
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+<br/>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+가즈오 이시구로의 동명의 원작 소설을 바탕으로 한 영화 **&lt;네버 렛 미 고&gt;**는 복제 인간이라는 SF적 설정으로 '정해진 운명 앞에서의 인간 존엄성과 사랑의 가치'를 포착한 작품이다. 본고는 이야기의 주인공인 캐시와 주변 인물들인 루스, 토미를 중심으로 이들이 기숙학교 헤일셤에서 겪는 성장 과정과 사회로 나와 마주하는 진실들, 그리고 '유예'라는 희망을 좇아 사랑을 증명하려는 과정을 통해 작품의 핵심 주제인 **'인간다움이란 무엇인가'**가 어떻게 형상화되는지 서사 구조를 중심으로 분석하고자 한다.
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+<br/>
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+주인공 캐시와 친구인 루스, 토미는 겉모습과 감정은 일반 인간과 다를 바 없지만 오직 '장기 기증'을 목적으로 생산된 복제 인간들이다. 이들은 인간과 똑같이 사랑하고 질투하며 예술을 통해 자신을 표현하지만 사회적으로는 오직 의료용 도구로 취급받는다. 이러한 인물들의 모순적인 정체성은 작품 전체를 관통하는 비극의 원인이자 독자와 관객으로 하여금 **'생명의 가치는 어디서 오는가'**를 끊임없이 질문하게 만드는 핵심 기제로 작용한다.
 
-**Markdown generator**
+<br/>
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+외부와 단절된 기숙학교 '헤일셤'에서 아이들이 그림을 그리고 교육을 받는 과정은 평화로워 보이지만 그 이면에 *"너희는 원하는 것을 하면서 중년이 될 때까지 살 수 없다"*는 선생님의 폭로가 터져 나오며 서사의 본격적인 '액션'이 시작된다. 이 충격적인 선언은 아이들이 막연하게 꿈꾸던 미래를 산산조각 내고, 자신들이 성인이 되면 장기를 기증하고 '종료'될 운명임을 자각하게 만든다. 학교를 떠나 '코티지'로 이동하며 이들은 본격적으로 기증자로서의 삶을 준비하게 되고 이 과정에서 발생하는 캐시, 루스, 토미 사이의 미묘한 감정의 엇갈림은 비극적 운명을 더욱 부각한다.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<br/>
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+죽음이 예정된 삶 속에서 인물들은 '유예'라는 소문에 희망을 건다. 진정으로 사랑하는 연인은 기증을 몇 년간 미룰 수 있다는 이 소문은 인물들의 유일한 구원이자 '갈등'의 중심이 된다. 하지만 루스의 거짓말과 질투로 인해 캐시와 토미의 사랑은 제때 이루어지지 못하고 엇갈린다. 시간이 흘러 기증이 시작되고 몸이 망가져가는 와중에 다시 재회한 세 사람은 되돌릴 수 없는 지난 시간과 얼마 남지 않은 생명이라는 현실 앞에서 갈등하고 화해한다.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<br/>
+
+루스가 죽고 난 뒤, 연인이 된 캐시와 토미가 소문의 진상을 확인하기 위해 마담과 에밀리 선생님을 찾아가는 장면은 서사의 **'클라이막스'**이다. 그들은 자신들이 그린 그림이 영혼이 있음을 증명하여 기증을 유예받기 위한 수단이었다고 믿었지만, *"유예 같은 건 없다"*는 차가운 진실을 마주한다. 그림은 단지 복제 인간도 영혼이 있는지를 알아보기 위한 실험이었을 뿐, 그들의 운명을 바꿔줄 수는 없었다. 절망한 토미가 돌아오는 길에 차에서 내려 어두운 밤거리를 향해 짐승처럼 울부짖는 장면은 시스템 앞에 무력한 개인의 처절한 슬픔을 시각적, 청각적으로 극대화하며 관객에게 깊은 충격을 안긴다.
+
+<br/>
+
+유예는 없다는 진실 앞에서 토미는 결국 세 번째 기증을 끝으로 종료한다. 홀로 남겨진 캐시는 토미가 죽은 후 들판의 울타리 너머를 바라보며 저항하거나 도망치는 대신 자신에게 다가올 기증자의 운명을 담담히 받아들인다. 하지만 그녀는 *"우리의 생명이 인간과 무엇이 달랐는가"*라고 말하며 비록 짧은 삶이었지만 서로 사랑했던 기억만큼은 누구에게도 빼앗길 수 없음을 독백한다. 이는 비극적인 죽음을 초월하여 사랑의 기억을 통해 자신의 존재 의미를 완성하는 '정서적 해결'이라 할 수 있다.
+
+<br/>
+
+본고는 영화 **&lt;네버 렛 미 고&gt;**를 통해 복제 인간이라는 특수한 인물들이 정해진 운명 속에서 사랑을 통해 삶을 연장하려 애쓰는 갈등 과정을 분석하였다. 희망이 좌절되는 갈등의 절정 순간을 지나 결국 죽음을 맞이하지만 사랑했던 기억으로 삶을 긍정하는 마무리로 해결된다.
+
+<br/>
+
+이 작품은 우리 모두가 언젠가는 죽음을 맞이한다는 점에서 복제 인간과 다르지 않음을 시사한다. 영화는 **'얼마나 오래 사는가'가 아니라 '누구를 사랑하고 기억하는가'**가 삶의 가치를 결정한다는 메시지를 던지며, 쓸쓸하지만 아름다운 여운을 남긴다.
+
+<br/>
+<hr/>
+<div align="center">
+  <sub style="color:gray">Written by Minkyeong Kang</sub>
+</div>
