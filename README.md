@@ -1,96 +1,38 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
-
-![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
-
-# Getting Started
-
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
-
-See more info at https://academicpages.github.io/
-
-## Running locally
-
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
-
-1. Clone the repository and made updates as detailed above.
-
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change to Markdown (*.md) and HTML files, while changes to the core template and configuration (i.e., `_config.yml`) will require stoping and restarting Jekyll.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
-```
-
-You should now be able to access the website from `localhost:4000`.
-
-### Using the DevContainer in VS Code
-
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
-
-# Maintenance
-
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
----
 <div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
-
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+  <h1>📂 Minkyeong's Archive</h1>
+  <p>기록하고, 기억하고, 사유합니다.</p>
 </div>
+
+<hr/>
+
+### 📚 Recent Interests
+> 영화 감상문
+
+<br/>
+
+### 🎬 Film Criticism : &lt;네버 렛 미 고&gt;
+#### *정해진 운명 앞에서의 인간 존엄성과 사랑의 가치*
+
+<br/>
+
+가즈오 이시구로의 동명의 원작 소설을 바탕으로 한 영화 **&lt;네버 렛 미 고&gt;**는 복제 인간이라는 SF적 설정으로 '정해진 운명 앞에서의 인간 존엄성과 사랑의 가치'를 포착한 작품이다. 본고는 이야기의 주인공인 캐시와 주변 인물들인 루스, 토미를 중심으로 이들이 기숙학교 헤일셤에서 겪는 성장 과정과 사회로 나와 마주하는 진실들, 그리고 '유예'라는 희망을 좇아 사랑을 증명하려는 과정을 통해 작품의 핵심 주제인 **'인간다움이란 무엇인가'**가 어떻게 형상화되는지 서사 구조를 중심으로 분석하고자 한다.
+
+<br/>
+
+주인공 캐시와 친구인 루스, 토미는 겉모습과 감정은 일반 인간과 다를 바 없지만 오직 '장기 기증'을 목적으로 생산된 복제 인간들이다. 이들은 인간과 똑같이 사랑하고 질투하며 예술을 통해 자신을 표현하지만 사회적으로는 오직 의료용 도구로 취급받는다. 이러한 인물들의 모순적인 정체성은 작품 전체를 관통하는 비극의 원인이자 독자와 관객으로 하여금 **'생명의 가치는 어디서 오는가'**를 끊임없이 질문하게 만드는 핵심 기제로 작용한다.
+
+<br/>
+
+외부와 단절된 기숙학교 '헤일셤'에서 아이들이 그림을 그리고 교육을 받는 과정은 평화로워 보이지만 그 이면에 *"너희는 원하는 것을 하면서 중년이 될 때까지 살 수 없다"*는 선생님의 폭로가 터져 나오며 서사의 본격적인 '액션'이 시작된다. 이 충격적인 선언은 아이들이 막연하게 꿈꾸던 미래를 산산조각 내고, 자신들이 성인이 되면 장기를 기증하고 '종료'될 운명임을 자각하게 만든다. 학교를 떠나 '코티지'로 이동하며 이들은 본격적으로 기증자로서의 삶을 준비하게 되고 이 과정에서 발생하는 캐시, 루스, 토미 사이의 미묘한 감정의 엇갈림은 비극적 운명을 더욱 부각한다.
+
+<br/>
+
+죽음이 예정된 삶 속에서 인물들은 '유예'라는 소문에 희망을 건다. 진정으로 사랑하는 연인은 기증을 몇 년간 미룰 수 있다는 이 소문은 인물들의 유일한 구원이자 '갈등'의 중심이 된다. 하지만 루스의 거짓말과 질투로 인해 캐시와 토미의 사랑은 제때 이루어지지 못하고 엇갈린다. 시간이 흘러 기증이 시작되고 몸이 망가져가는 와중에 다시 재회한 세 사람은 되돌릴 수 없는 지난 시간과 얼마 남지 않은 생명이라는 현실 앞에서 갈등하고 화해한다.
+
+<br/>
+
+루스가 죽고 난 뒤, 연인이 된 캐시와 토미가 소문의 진상을 확인하기 위해 마담과 에밀리 선생님을 찾아가는 장면은 서사의 **'클라이막스'**이다. 그들은 자신들이 그린 그림이 영혼이 있음을 증명하여 기증을 유예받기 위한 수단이었다고 믿었지만, *"유예 같은 건 없다"*는 차가운 진실을 마주한다. 그림은 단지 복제 인간도 영혼이 있는지를 알아보기 위한 실험이었을 뿐, 그들의 운명을 바꿔줄 수는 없었다. 절망한 토미가 돌아오는 길에 차에서 내려 어두운 밤거리를 향해 짐승처럼 울부짖는 장면은 시스템 앞에 무력한 개인의 처절한 슬픔을 시각적, 청각적으로 극대화하며 관객에게 깊은 충격을 안긴다.
+
+<br/>
+
+유예는 없다는 진실 앞에서 토미는 결국 세 번째 기증
